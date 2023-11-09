@@ -42,7 +42,6 @@ section .btn{
 /* <!-- ================== SOCIAL MEDIA =================== --> */
 .media{
     top: 50%;
-    right: 1.5rem;
     transform: translateY(-50%);
 }
 /* <!-- ================== Breakpoint =================== --> */
@@ -68,7 +67,6 @@ section .btn{
     }
     .media{
         top: 6rem;
-        right: 2rem;
         transform: translateY(0);
     }
 }
