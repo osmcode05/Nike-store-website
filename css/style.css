@@ -42,7 +42,7 @@ section .btn{
 /* <!-- ================== SOCIAL MEDIA =================== --> */
 .media{
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 /* <!-- ================== Breakpoint =================== --> */
 /* --- samll device --- */
