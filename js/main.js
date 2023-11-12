@@ -1,11 +1,11 @@
 // << ======== Menu ========= >>
 let apps = document.getElementById('apps'),
     close = document.getElementById('close'),
-    navbar__nav = document.querySelector('.navbar-nav'); 
+    list = document.querySelector('nav ul'); 
 function toggele(){
-  apps.classList.toggle('d-none');
-  close.classList.toggle('d-none');
-  navbar__nav.classList.toggle('end-0');
+  apps.classList.toggle('toggele');
+  close.classList.toggle('toggele');
+  list.classList.toggle('toggele');
 }
 apps.addEventListener('click',toggele)
 close.addEventListener('click',toggele)
